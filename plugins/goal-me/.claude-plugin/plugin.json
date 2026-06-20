@@ -1,0 +1,11 @@
+{
+  "name": "goal-me",
+  "description": "Design a goal as a machine-verifiable closed loop for /goal: interview to pin down a precise stop condition, scoped steps, and a kickoff command, written under .claude/goals/. Prevents open-loop drift and cost blowup. For development, research, writing, and investigation.",
+  "version": "0.1.0",
+  "author": {
+    "name": "ecoopnet",
+    "email": "ck.earlgrey@gmail.com"
+  },
+  "homepage": "https://github.com/ecoopnet/goal-me",
+  "license": "MIT"
+}

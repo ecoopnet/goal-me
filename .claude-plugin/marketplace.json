@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "goal-me",
+  "description": "goal-me: design a goal as a machine-verifiable closed loop for /goal",
+  "owner": {
+    "name": "ecoopnet",
+    "email": "ck.earlgrey@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "goal-me",
+      "description": "Interview-driven skill that turns a vague goal into a machine-verifiable closed loop (precise stop condition, scoped steps, kickoff command) so /goal runs without drifting or burning excess cost. Works for development, research, writing, and investigation; new or existing projects.",
+      "author": {
+        "name": "ecoopnet"
+      },
+      "category": "productivity",
+      "source": "./plugins/goal-me",
+      "homepage": "https://github.com/ecoopnet/goal-me"
+    }
+  ]
+}
